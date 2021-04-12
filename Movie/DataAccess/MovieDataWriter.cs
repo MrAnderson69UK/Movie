@@ -1,14 +1,13 @@
-﻿using CsvHelper.Configuration;
-using CsvHelper;
-using Movie.DataModels;
+﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
-using System.Text;
-using System;
 using System.Linq;
+using System.Text;
+using CsvHelper;
+using CsvHelper.Configuration;
 using Movie.Common;
-using Movie.Models;
+using Movie.DataModels;
 
 namespace Movie.DataAccess
 {
@@ -62,5 +61,4 @@ namespace Movie.DataAccess
 
         #endregion
     }
-
 }

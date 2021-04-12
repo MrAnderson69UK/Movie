@@ -33,13 +33,7 @@ namespace MovieTest
 
         public List<Metadata> updateMetadata = new List<Metadata>
         {
-            { new Metadata() { MovieId = 1, Title = "TEST MOVIE 1", Language = "EN", Duration = new TimeSpan(01,35,00), ReleaseYear = 2010 } },
-            //{ new MovieUpdateData() { MovieId = 1, Title = "Test Movie 1", Language = "AR", Duration = new TimeSpan(01,35,00), ReleaseYear = 2010 } },
-            //{ new MovieUpdateData() { MovieId = 2, Title = "TEST MOVIE 2", Language = "EN", Duration = new TimeSpan(02,25,00), ReleaseYear = 2015 } },
-            //{ new MovieUpdateData() { MovieId = 2, Title = " Test Movie2", Language = "RU", Duration = new TimeSpan(02,25,00), ReleaseYear = 2015 } },
-            //{ new MovieUpdateData() { MovieId = 2, Title = "Test Movie 2", Language = "AR", Duration = new TimeSpan(02,25,00), ReleaseYear = 2015 } },
-            //{ new MovieUpdateData() { MovieId = 3, Title = "Test Movie 3", Language = "AR", Duration = new TimeSpan(02,28,00), ReleaseYear = 2013 } },
-            //{ new MovieUpdateData() { MovieId = 3, Title = "TEST MOVIE 3", Language = "EN", Duration = new TimeSpan(02,28,00), ReleaseYear = 2013 } }
+            { new Metadata() { MovieId = 1, Title = "TEST MOVIE 1", Language = "EN", Duration = new TimeSpan(01,35,00), ReleaseYear = 2010 } }
         };
 
         #endregion
@@ -66,13 +60,7 @@ namespace MovieTest
 
         public List<MovieUpdateData> movieUpdateMetadata = new List<MovieUpdateData>
         {
-            { new MovieUpdateData() { MovieId = 1, Title = "TEST MOVIE 1", Language = "EN", Duration = new TimeSpan(01,35,00), ReleaseYear = 2010 } },
-            //{ new MovieUpdateData() { MovieId = 1, Title = "Test Movie 1", Language = "AR", Duration = new TimeSpan(01,35,00), ReleaseYear = 2010 } },
-            //{ new MovieUpdateData() { MovieId = 2, Title = "TEST MOVIE 2", Language = "EN", Duration = new TimeSpan(02,25,00), ReleaseYear = 2015 } },
-            //{ new MovieUpdateData() { MovieId = 2, Title = " Test Movie2", Language = "RU", Duration = new TimeSpan(02,25,00), ReleaseYear = 2015 } },
-            //{ new MovieUpdateData() { MovieId = 2, Title = "Test Movie 2", Language = "AR", Duration = new TimeSpan(02,25,00), ReleaseYear = 2015 } },
-            //{ new MovieUpdateData() { MovieId = 3, Title = "Test Movie 3", Language = "AR", Duration = new TimeSpan(02,28,00), ReleaseYear = 2013 } },
-            //{ new MovieUpdateData() { MovieId = 3, Title = "TEST MOVIE 3", Language = "EN", Duration = new TimeSpan(02,28,00), ReleaseYear = 2013 } }
+            { new MovieUpdateData() { MovieId = 1, Title = "TEST MOVIE 1", Language = "EN", Duration = "01:35:00", ReleaseYear = 2010 } }
         };
 
         #endregion

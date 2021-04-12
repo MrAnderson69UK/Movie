@@ -2,7 +2,7 @@
 
 namespace Movie.Models
 {
-    // Presentation Model for /metadata/stats endpoint
+    // Presentation Model for /metadata/stats GET endpoint
     public class MovieMetadataStats
     {
         [Index(0)]

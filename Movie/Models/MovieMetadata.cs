@@ -4,7 +4,7 @@ using Movie.Common;
 
 namespace Movie.Models
 {
-    // Presentation Model for /metadata/{id} endpoint
+    // Presentation Model for /metadata/{id} GET endpoint
     public class MovieMetadata
     {
         [Ignore]

@@ -4,6 +4,7 @@ using Movie.Common;
 
 namespace Movie.Models
 {
+    // Presentation Model for /metadata POST endpoint
     public class MovieUpdateData
     {
         [Ignore]

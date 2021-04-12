@@ -4,7 +4,7 @@ namespace Movie.Controllers
 {
     public interface IMetadataController
     {
-        public IActionResult GetById(int? id);
-        public IActionResult GetStats();
+        IActionResult GetById(int? id);
+        IActionResult GetStats();
     } 
 }
