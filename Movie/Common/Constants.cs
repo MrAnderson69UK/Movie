@@ -9,7 +9,7 @@ namespace Movie.Common
         public static readonly string MetadataDataSource = "DataSource/metadata.csv";
         public static readonly string StatsDataSource = "DataSource/stats.csv";
         public static readonly string DurationFormatString = "HH:mm:ss";
-        public static readonly string MetadataDataSaves = "DataSource/newMetadata,csv";
+        public static readonly string MetadataDataSaves = "DataSource/newMetadata.csv";
     }
 }
     
